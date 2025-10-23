@@ -1,0 +1,1 @@
+Be respectful. This project follows the standard Contributor Covenant principles.

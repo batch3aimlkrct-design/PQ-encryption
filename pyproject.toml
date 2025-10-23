@@ -1,0 +1,19 @@
+[project]
+name = "pq-github-store"
+version = "0.1.0"
+description = "Lightweight post-quantum hybrid encryption for storing encrypted blobs in GitHub repositories"
+readme = "README.md"
+authors = [
+  { name="batch3aimlkrct-design" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+
+[project.scripts]
+pqstore-genkey = "src.cli_keygen:main"
+pqstore-encrypt = "src.cli_encrypt:main"
+pqstore-decrypt = "src.cli_decrypt:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

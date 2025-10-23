@@ -1,0 +1,1 @@
+If you discover a security issue, please open a confidential issue or contact the repository owner. This demo is not production-ready; do not store highly sensitive data without additional protections.
